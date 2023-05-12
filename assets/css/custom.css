@@ -81,3 +81,14 @@
 .light-bg1{
     background: rgb(220, 240, 230);
 }
+
+@media screen and (max-width: 576px){
+     
+    .topsell__area-1.pt-60{
+        padding-top: 30px !important;
+    }
+    .topsell__area-1 .section__title{
+        margin-bottom: 0px !important;
+    }
+    
+}
