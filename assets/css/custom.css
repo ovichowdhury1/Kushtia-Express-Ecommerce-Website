@@ -90,5 +90,14 @@
     .topsell__area-1 .section__title{
         margin-bottom: 0px !important;
     }
+    .featured.pt-55{
+             padding-top: 30px;
+    }
+    .featured .section__title{
+        margin-bottom: 20px !important;
+    }
+    .featured .mb-30 {
+        margin-bottom: 10px;
+    }
     
 }
