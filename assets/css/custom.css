@@ -99,5 +99,8 @@
     .featured .mb-30 {
         margin-bottom: 10px;
     }
+    .featured.pb-40 {
+        padding-bottom: 10px;
+    }
     
 }
