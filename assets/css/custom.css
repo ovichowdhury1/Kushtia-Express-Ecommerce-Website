@@ -144,7 +144,7 @@
     }
     .main-menu ul li {
         display: inline-block;
-        margin-right: 10px !important;
+        margin-right: 8px !important;
         position: relative;
     }
     .main-menu ul li a {
@@ -155,13 +155,151 @@
         margin-bottom: 10px !important;
         margin-top: 30px !important;
     }
+    .testimonial-container .testimonial {
+        /* letter-spacing: -0.04rem; */
+        font-size: 16px;
+        line-height: 22px;
+        color: white;
+    }
+    
+    .features__area1 .features__item {
+        padding: 5px 5px !important;
+       
+    }
+    .features__icon i {
+        font-size: 20px;
+        color: #fcbe00;
+    }
+    .features__icon.mr-20 {
+        margin-right: 10px;
+    }
+    .features__content h6 {
+        font-size: 10px;
+        line-height: 1.4;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    .features__content p {
+        text-align: center;
+        font-size: 8px;
+        line-height: 1.4em;
+        margin-bottom: 0;
+    }
+    .features__area1 .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    }
+
+@media screen and (max-width: 850px){
+     
+    .topsell__area-1.pt-60{
+        padding-top: 30px ;
+    }
+    .topsell__area-1 .section__title{
+        margin-bottom: 0px !;
+    }
+    .featured.pt-55{
+             padding-top: 30px;
+    }
+    .featured .section__title{
+        margin-bottom: 20px ;
+    }
+    .featured .mb-30 {
+        margin-bottom: 10px;
+    }
+    .featured.pb-40 {
+        padding-bottom: 10px;
+    }
+    .topsell__area-1.pb-60{
+        padding-bottom: 20px ;
+    }
+    .topsell__area-1.pt-15{
+        padding-top: 0px;
+    }
+    .banner__area.pt-60 {
+         padding-top: 30px;
+    }
+    .banner__area.pb-25{
+         padding-bottom: 0px;
+    }
+    .topsell__area-1 .section__title_padding {
+        margin-bottom: 20px ;
+    }
+    .section__head-margin.mb-30 {
+        margin-bottom: 10px;
+    }
+
+    .topsell__area-2.pt-15{
+        padding-top: 0px;
+    }
+    .topsell__area-2 .section__title {
+        margin-bottom: 30px;
+    }
+    .featured .mb-30 {
+        margin-top: 10px;
+    }
+    .cat-toggle-btn-1 {
+        padding-right: 0px ;
+        display: none;
+    }
+    .header__search-box .search-input {
+        padding-left: 0px ;
+        display: none;
+    }
+    .header__search-box .button {
+        display: none !important;
+    }
+    .main-menu ul li {
+        display: inline-block;
+        margin-right: 20px =;
+        position: relative;
+    }
+    .main-menu ul li a {
+      font-size: 16px ;
+      padding: 0px;
+    }
+    .client-review{
+        margin-bottom: 10px ;
+        margin-top: 30px ;
+    }
+    .testimonial-container .testimonial {
+        /* letter-spacing: -0.04rem; */
+        font-size: 16px;
+        line-height: 22px;
+        color: white;
+    }
+    .header__search-cat{
+        display: none;
+    }
+    /* .align-items-center{
+        
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    } */
 }
 
 
+.row-cols-xxl-4 .features__item:hover {
+    background-color: #fcbe00; /* Change to the desired hover background color */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
 
+  .row-cols-xxl-4 .features__item:hover .fa-whatsapp {
+    color: white; /* Change to the desired icon color */
+  }
 
+  
+  .row-cols-xxl-4 .features__item:hover .fa-phone {
+    color: white; /* Change to the desired icon color */
+  }
 
-
+  .features__area1 .features__item {
+    padding: 10px 20px;
+}
 
 
 
@@ -269,3 +407,7 @@
     margin-bottom: 30px;
     margin-top: 60px;
 }
+
+
+
+
